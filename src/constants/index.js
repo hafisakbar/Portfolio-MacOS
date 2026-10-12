@@ -49,12 +49,6 @@ const dockApps = [
     canOpen: true,
   },
   {
-    id: "photos",
-    name: "Gallery", // was "Photos"
-    icon: "photos.png",
-    canOpen: true,
-  },
-  {
     id: "contact",
     name: "Contact", // or "Get in touch"
     icon: "contact.png",
@@ -77,25 +71,21 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "Web Development: Building responsive and interactive web applications using React, Next.js, and modern frontend technologies.",
+    image: "/images/pict1.png",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    title:
+      "Android Development: Developing Android applications with Kotlin, Jetpack Compose, and Firebase.",
+    image: "/images/pict2.png",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    title:
+      "Backend Development: Creating REST APIs and backend services using Node.js and Flask.",
+    image: "/images/pict3.png",
   },
 ];
 
@@ -132,7 +122,7 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/hafisakbar",
   },
   {
     id: 2,
@@ -143,17 +133,10 @@ const socials = [
   },
   {
     id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
-  },
-  {
-    id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/hafis-akbar-500918202/",
   },
 ];
 
@@ -225,52 +208,43 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Android Attendance System - Edukasi Ceria",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[5vh] left-5", // optional: Finder window position
+      windowPosition: "top-[10vh] left-5", // optional: Finder window position
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Android Attendance System - Edukasi Ceria.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Edukasi Ceria Attendance System is a modern Android-based workforce attendance and activity tracking solution tailored for educational institutions and operations.",
+            "It streamlines employee check-ins and check-outs using GPS geofencing radius validation, selfie verification, and real-time client visit logging.",
+            "Equipped with a comprehensive administrative dashboard for leave/permit validation, automated attendance recaps, and employee record management.",
+            "Engineered natively with Kotlin, Jetpack Compose, Firebase, and Clean Architecture (MVVM + Hilt) for a fluid, responsive, and robust user experience.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "Android Attendance System.video",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://youtu.be/x0rhO4l7oZY?si=962Kv8CAtkyaxGXp",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "Android Attendance System.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-52 right-80",
+          position: "top-52 right-60",
           imageUrl: "/images/project-1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
         },
       ],
     },
@@ -278,38 +252,38 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Seulawah.Co",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-7",
+      windowPosition: "top-[30vh] left-14",
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "seulawahCo.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "The Seulawah.Co website is a modern, interactive landing page crafted for a premier beachfront cafe and restaurant in Meulaboh, Aceh Barat.",
+            "Beyond a standard cafe site, it offers an engaging digital experience featuring an interactive menu catalog, real-time cart drawer, and seamless WhatsApp order integration.",
+            "Think of it like capturing the coastal breeze, specialty coffee culture, and sunset ocean views right from your screen.",
+            "Built with React 19, Vite, Tailwind CSS, and Framer Motion, delivering silky-smooth animations, fluid dark mode transitions, and blazing-fast performance.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "SeulawahCo.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://seulawahco.netlify.app/",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "SeulawahCo.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -331,38 +305,38 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Chabot-AI",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[50vh] left-16",
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Chabot-AI.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "The BPKD AI Assistant is an intelligent web-based chatbot designed to provide real-time guidance on regional taxes.",
+            "Instead of searching through lengthy bureaucratic documents, it delivers instant answers regarding local tax categories, payment procedures, requirements, and current rates.",
+            "Think of it like having a dedicated public service tax consultant available 24/7 directly from your browser.",
+            "It's built with HTML5, CSS3, and Vanilla JavaScript integrated with the Google Gemini 2.5 Flash API, ensuring fast responses, responsive layout, and an intuitive user experience.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "Chabot-AI.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://chatbotbphtb.netlify.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "Chabot-AI.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -397,7 +371,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/hafis.jpeg",
     },
     {
       id: 2,
@@ -406,16 +380,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/hafis-2.jpeg",
     },
     {
       id: 3,
-      name: "conference-me.png",
+      name: "formal-me.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/hafis-3.jpeg",
     },
     {
       id: 4,
@@ -425,12 +399,12 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/me.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Hafis 👋, a developer who enjoys turning ideas into web and Android applications that are simple, useful, and enjoyable to use.",
+        "I mostly work with React, Next.js, JavaScript, and Kotlin, while also exploring backend development, REST APIs, Firebase, and cloud-based services.",
+        "I care about clean interfaces, smooth interactions, and code that stays understandable even when the project starts getting bigger.",
+        "Most of my projects start with a simple idea, followed by way too many tabs, a lot of debugging, and eventually something I’m actually proud of 😅",
       ],
     },
   ],
@@ -497,7 +471,6 @@ const WINDOW_CONFIG = {
   contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },

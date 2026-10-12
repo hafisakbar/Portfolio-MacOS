@@ -98,3 +98,5 @@ export const Dock = () => {
     </section>
   );
 };
+
+export default Dock;

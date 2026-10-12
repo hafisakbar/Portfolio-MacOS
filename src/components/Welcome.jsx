@@ -69,7 +69,7 @@ export const Welcome = () => {
     <section id="welcome">
       <p ref={subtitleRef}>
         {renderText(
-          "Hey, Im Hafis! Welcome to my",
+          "Hey, Im Hafis👋! Welcome to my",
           "text-3xl font-georama",
           100,
         )}
@@ -80,3 +80,5 @@ export const Welcome = () => {
     </section>
   );
 };
+
+export default Welcome;
