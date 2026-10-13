@@ -126,10 +126,10 @@ const socials = [
   },
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
+    text: "Email",
+    icon: "/icons/email.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "mailto:hafis.akbar1459@gmail.com",
   },
   {
     id: 3,
