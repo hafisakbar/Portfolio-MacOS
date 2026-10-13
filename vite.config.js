@@ -23,6 +23,7 @@ export default defineConfig({
         dirname(fileURLToPath(import.meta.url)),
         "src/windows",
       ),
+      "#mobile": resolve(dirname(fileURLToPath(import.meta.url)), "src/mobile"),
     },
   },
 });

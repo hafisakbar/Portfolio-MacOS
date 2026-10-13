@@ -1,0 +1,10 @@
+.mobile-notes-screen {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: #1d1d1f;
+}
+
+.mobile-notes-screen .mobile-resume {
+  inset: calc(env(safe-area-inset-top, 0px) + 56px) 0 0;
+}
